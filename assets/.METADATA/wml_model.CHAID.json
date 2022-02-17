@@ -1,0 +1,160 @@
+{
+  "entity": {
+    "wml_model": {
+      "software_spec": {
+        "base_id": "390d21f8-e58b-4fac-9c55-d7ceda621326",
+        "name": "spark-mllib_2.4"
+      },
+      "ml_version": "4.0.12",
+      "type": "pmml_4.2",
+      "schemas": {
+        "input": [
+          {
+            "fields": [
+              {
+                "metadata": {},
+                "name": "Geschlecht",
+                "nullable": true,
+                "type": "string"
+              },
+              {
+                "metadata": {},
+                "name": "Familienstand",
+                "nullable": true,
+                "type": "string"
+              },
+              {
+                "metadata": {},
+                "name": "HatKinder",
+                "nullable": true,
+                "type": "string"
+              },
+              {
+                "metadata": {},
+                "name": "DAUER_Kundenbeziehung",
+                "nullable": true,
+                "type": "integer"
+              },
+              {
+                "metadata": {},
+                "name": "Gebiet",
+                "nullable": true,
+                "type": "string"
+              },
+              {
+                "metadata": {},
+                "name": "Fernwaermeabnehmer",
+                "nullable": true,
+                "type": "integer"
+              },
+              {
+                "metadata": {},
+                "name": "Kaufkraft",
+                "nullable": true,
+                "type": "string"
+              },
+              {
+                "metadata": {},
+                "name": "Bebauung",
+                "nullable": true,
+                "type": "string"
+              },
+              {
+                "metadata": {},
+                "name": "Anspruchsvoller Delegierer",
+                "nullable": true,
+                "type": "string"
+              },
+              {
+                "metadata": {},
+                "name": "Skeptisch Gleichgueltiger",
+                "nullable": true,
+                "type": "string"
+              },
+              {
+                "metadata": {},
+                "name": "Distinguiert Konservativer",
+                "nullable": true,
+                "type": "string"
+              },
+              {
+                "metadata": {},
+                "name": "Gesunder Kraftprotz",
+                "nullable": true,
+                "type": "string"
+              },
+              {
+                "metadata": {},
+                "name": "Informierter Koerperbewusster",
+                "nullable": true,
+                "type": "string"
+              },
+              {
+                "metadata": {},
+                "name": "Aboscore",
+                "nullable": true,
+                "type": "string"
+              },
+              {
+                "metadata": {},
+                "name": "Sinus-Milieus",
+                "nullable": true,
+                "type": "string"
+              }
+            ],
+            "id": "default_schema_id",
+            "type": "struct"
+          }
+        ],
+        "output": [
+          {
+            "fields": [
+              {
+                "metadata": {},
+                "name": "$R-Churn",
+                "nullable": true,
+                "type": "string"
+              },
+              {
+                "metadata": {},
+                "name": "$RC-Churn",
+                "nullable": true,
+                "type": "double"
+              }
+            ],
+            "id": "default_schema_id",
+            "type": "struct"
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "name": "CHAID",
+    "description": "",
+    "asset_type": "wml_model",
+    "asset_category": "USER",
+    "resource_key": "5da3f486-f888-476c-ab75-41bce4953b21",
+    "origin_country": "US",
+    "created_at": "2022-02-17T20:43:49Z",
+    "created": 1645130629774,
+    "asset_id": "wml_model.CHAID",
+    "asset_attributes": [
+      "wml_model"
+    ]
+  },
+  "attachments": [
+    {
+      "asset_type": "wml_model",
+      "user_data": {
+        "content_format": "native"
+      },
+      "created_at": "2022-02-17T20:43:49Z",
+      "id": "c087c560-8be1-4383-88f9-6f8fd733e9d2",
+      "is_managed": true,
+      "is_referenced": false,
+      "is_remote": false,
+      "transfer_complete": true
+    }
+  ]
+}

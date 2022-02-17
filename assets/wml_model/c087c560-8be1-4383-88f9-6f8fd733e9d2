@@ -1,0 +1,1131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<PMML version="4.3" xmlns="http://www.dmg.org/PMML-4_3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.dmg.org/PMML-4_3 pmml-4-3.xsd">
+  <Header copyright="Copyright(c) IBM Corp. 1989-2017. All rights reserved.">
+    <Application name="IBM SPSS Modeler Common" version="18.3.0.0"/>
+    <Timestamp/>
+</Header>
+  <DataDictionary numberOfFields="37">
+    <DataField dataType="string" displayName="Geschlecht" isCyclic="0" name="Geschlecht" optype="categorical">
+      <Value displayValue="F" property="valid" value="F"/>
+      <Value displayValue="M" property="valid" value="M"/>
+</DataField>
+    <DataField dataType="string" displayName="Familienstand" isCyclic="0" name="Familienstand" optype="categorical">
+      <Value displayValue="single" property="valid" value="single"/>
+      <Value displayValue="verheiratet" property="valid" value="verheiratet"/>
+</DataField>
+    <DataField dataType="string" displayName="HatKinder" isCyclic="0" name="HatKinder" optype="categorical">
+      <Value displayValue="ja" property="valid" value="ja"/>
+      <Value displayValue="nein" property="valid" value="nein"/>
+</DataField>
+    <DataField dataType="string" displayName="Zahlmethode" isCyclic="0" name="Zahlmethode" optype="categorical">
+      <Value displayValue="Kreditkarte" property="valid" value="Kreditkarte"/>
+      <Value displayValue="Paypal" property="valid" value="Paypal"/>
+      <Value displayValue="Ueberweisung" property="valid" value="Ueberweisung"/>
+</DataField>
+    <DataField dataType="double" displayName="DAUER_Kundenbeziehung" isCyclic="0" name="DAUER_Kundenbeziehung" optype="continuous"/>
+    <DataField dataType="string" displayName="Region" isCyclic="0" name="Region" optype="categorical">
+      <Value displayValue="Norddeutschland" property="valid" value="Norddeutschland"/>
+      <Value displayValue="Sueddeutschland" property="valid" value="Sueddeutschland"/>
+</DataField>
+    <DataField dataType="string" displayName="Bundesland" isCyclic="0" name="Bundesland" optype="categorical">
+      <Value displayValue="Baden-Wuerttemberg" property="valid" value="Baden-Wuerttemberg"/>
+      <Value displayValue="Bayern" property="valid" value="Bayern"/>
+      <Value displayValue="Berlin" property="valid" value="Berlin"/>
+      <Value displayValue="Brandenburg" property="valid" value="Brandenburg"/>
+      <Value displayValue="Bremen" property="valid" value="Bremen"/>
+      <Value displayValue="Hamburg" property="valid" value="Hamburg"/>
+      <Value displayValue="Hessen" property="valid" value="Hessen"/>
+      <Value displayValue="Mecklenburg-Vorpommern" property="valid" value="Mecklenburg-Vorpommern"/>
+      <Value displayValue="Niedersachsen" property="valid" value="Niedersachsen"/>
+      <Value displayValue="Nordrhein-Westfalen" property="valid" value="Nordrhein-Westfalen"/>
+      <Value displayValue="Rheinland-Pfalz" property="valid" value="Rheinland-Pfalz"/>
+      <Value displayValue="Saarland" property="valid" value="Saarland"/>
+      <Value displayValue="Sachsen" property="valid" value="Sachsen"/>
+      <Value displayValue="Sachsen-Anhalt" property="valid" value="Sachsen-Anhalt"/>
+      <Value displayValue="Schleswig-Holstein" property="valid" value="Schleswig-Holstein"/>
+      <Value displayValue="Thueringen" property="valid" value="Thueringen"/>
+</DataField>
+    <DataField dataType="string" displayName="Gebiet" isCyclic="0" name="Gebiet" optype="categorical">
+      <Value displayValue="Land" property="valid" value="Land"/>
+      <Value displayValue="Stadt" property="valid" value="Stadt"/>
+</DataField>
+    <DataField dataType="double" displayName="Umsatz_Total" isCyclic="0" name="Umsatz_Total" optype="continuous"/>
+    <DataField dataType="double" displayName="Umsatz_letztes_Quartal" isCyclic="0" name="Umsatz_letztes_Quartal" optype="continuous"/>
+    <DataField dataType="double" displayName="Oekostrom" isCyclic="0" name="Oekostrom" optype="continuous"/>
+    <DataField dataType="double" displayName="Fernwaermeabnehmer" isCyclic="0" name="Fernwaermeabnehmer" optype="continuous"/>
+    <DataField dataType="string" displayName="Strassentyp" isCyclic="0" name="Strassentyp" optype="categorical">
+      <Value displayValue="Gewerbestrasse" property="valid" value="Gewerbestrasse"/>
+      <Value displayValue="Ladenstrasse" property="valid" value="Ladenstrasse"/>
+      <Value displayValue="Mischform" property="valid" value="Mischform"/>
+      <Value displayValue="Wohnstrasse" property="valid" value="Wohnstrasse"/>
+      <Value displayValue="extremer Gewerbeanteil" property="valid" value="extremer Gewerbeanteil"/>
+</DataField>
+    <DataField dataType="string" displayName="Bonitaet" isCyclic="0" name="Bonitaet" optype="categorical">
+      <Value displayValue="durchschnittlic" property="valid" value="durchschnittlic"/>
+      <Value displayValue="durchschnittlich" property="valid" value="durchschnittlich"/>
+      <Value displayValue="gut" property="valid" value="gut"/>
+      <Value displayValue="schlecht" property="valid" value="schlecht"/>
+</DataField>
+    <DataField dataType="string" displayName="Kaufkraft" isCyclic="0" name="Kaufkraft" optype="categorical">
+      <Value displayValue="hoch" property="valid" value="hoch"/>
+      <Value displayValue="mittel" property="valid" value="mittel"/>
+      <Value displayValue="niedrig" property="valid" value="niedrig"/>
+</DataField>
+    <DataField dataType="string" displayName="Anteil Deutscher" isCyclic="0" name="Anteil Deutscher" optype="categorical">
+      <Value displayValue="hoch" property="valid" value="hoch"/>
+      <Value displayValue="mittel" property="valid" value="mittel"/>
+      <Value displayValue="niedrig" property="valid" value="niedrig"/>
+</DataField>
+    <DataField dataType="string" displayName="Altersstruktur" isCyclic="0" name="Altersstruktur" optype="categorical"/>
+    <DataField dataType="string" displayName="Bebauung" isCyclic="0" name="Bebauung" optype="categorical">
+      <Value displayValue="Drei- bis Fuenffamilienhaeuser" property="valid" value="Drei- bis Fuenffamilienhaeuser"/>
+      <Value displayValue="Ein- und Zweifamilienhaeuser" property="valid" value="Ein- und Zweifamilienhaeuser"/>
+      <Value displayValue="Haeuser mit 10 bis 19 Haushalten" property="valid" value="Haeuser mit 10 bis 19 Haushalten"/>
+      <Value displayValue="Haeuser mit 20 und mehr Haushalten" property="valid" value="Haeuser mit 20 und mehr Haushalten"/>
+      <Value displayValue="Haeuser mit 6 bis 9 Haushalten" property="valid" value="Haeuser mit 6 bis 9 Haushalten"/>
+      <Value displayValue="nicht zugeordnet" property="valid" value="nicht zugeordnet"/>
+</DataField>
+    <DataField dataType="string" displayName="Regionaltyp" isCyclic="0" name="Regionaltyp" optype="categorical"/>
+    <DataField dataType="string" displayName="Status" isCyclic="0" name="Status" optype="categorical">
+      <Value displayValue="hoch" property="valid" value="hoch"/>
+      <Value displayValue="mittel" property="valid" value="mittel"/>
+      <Value displayValue="niedrig" property="valid" value="niedrig"/>
+</DataField>
+    <DataField dataType="string" displayName="Bequemer Experte" isCyclic="0" name="Bequemer Experte" optype="categorical">
+      <Value displayValue="geringe Wahrscheinlichkeit" property="valid" value="geringe Wahrscheinlichkeit"/>
+      <Value displayValue="hohe Wahrscheinlichkeit" property="valid" value="hohe Wahrscheinlichkeit"/>
+      <Value displayValue="mittlere Wahrscheinlichkeit" property="valid" value="mittlere Wahrscheinlichkeit"/>
+</DataField>
+    <DataField dataType="string" displayName="Treuer Vertreterkunde" isCyclic="0" name="Treuer Vertreterkunde" optype="categorical">
+      <Value displayValue="geringe Wahrscheinlichkeit" property="valid" value="geringe Wahrscheinlichkeit"/>
+      <Value displayValue="hohe Wahrscheinlichkeit" property="valid" value="hohe Wahrscheinlichkeit"/>
+      <Value displayValue="mittlere Wahrscheinlichkeit" property="valid" value="mittlere Wahrscheinlichkeit"/>
+</DataField>
+    <DataField dataType="string" displayName="Anspruchsvoller Delegierer" isCyclic="0" name="Anspruchsvoller Delegierer" optype="categorical">
+      <Value displayValue="geringe Wahrscheinlichkeit" property="valid" value="geringe Wahrscheinlichkeit"/>
+      <Value displayValue="hohe Wahrscheinlichkeit" property="valid" value="hohe Wahrscheinlichkeit"/>
+      <Value displayValue="mittlere Wahrscheinlichkeit" property="valid" value="mittlere Wahrscheinlichkeit"/>
+</DataField>
+    <DataField dataType="string" displayName="Preisorientierter Rationalist" isCyclic="0" name="Preisorientierter Rationalist" optype="categorical">
+      <Value displayValue="geringe Wahrscheinlichkeit" property="valid" value="geringe Wahrscheinlichkeit"/>
+      <Value displayValue="hohe Wahrscheinlichkeit" property="valid" value="hohe Wahrscheinlichkeit"/>
+      <Value displayValue="mittlere Wahrscheinlichkeit" property="valid" value="mittlere Wahrscheinlichkeit"/>
+</DataField>
+    <DataField dataType="string" displayName="ueberforderter Unterstuetzungssucher" isCyclic="0" name="ueberforderter Unterstuetzungssucher" optype="categorical">
+      <Value displayValue="geringe Wahrscheinlichkeit" property="valid" value="geringe Wahrscheinlichkeit"/>
+      <Value displayValue="hohe Wahrscheinlichkeit" property="valid" value="hohe Wahrscheinlichkeit"/>
+      <Value displayValue="mittlere Wahrscheinlichkeit" property="valid" value="mittlere Wahrscheinlichkeit"/>
+</DataField>
+    <DataField dataType="string" displayName="Skeptisch Gleichgueltiger" isCyclic="0" name="Skeptisch Gleichgueltiger" optype="categorical">
+      <Value displayValue="geringe Wahrscheinlichkeit" property="valid" value="geringe Wahrscheinlichkeit"/>
+      <Value displayValue="hohe Wahrscheinlichkeit" property="valid" value="hohe Wahrscheinlichkeit"/>
+      <Value displayValue="mittlere Wahrscheinlichkeit" property="valid" value="mittlere Wahrscheinlichkeit"/>
+</DataField>
+    <DataField dataType="string" displayName="Distinguiert Konservativer" isCyclic="0" name="Distinguiert Konservativer" optype="categorical">
+      <Value displayValue="geringe Wahrscheinlichkeit" property="valid" value="geringe Wahrscheinlichkeit"/>
+      <Value displayValue="hohe Wahrscheinlichkeit" property="valid" value="hohe Wahrscheinlichkeit"/>
+      <Value displayValue="mittlere Wahrscheinlichkeit" property="valid" value="mittlere Wahrscheinlichkeit"/>
+</DataField>
+    <DataField dataType="string" displayName="Gesunder Kraftprotz" isCyclic="0" name="Gesunder Kraftprotz" optype="categorical">
+      <Value displayValue="geringe Wahrscheinlichkeit" property="valid" value="geringe Wahrscheinlichkeit"/>
+      <Value displayValue="hohe Wahrscheinlichkeit" property="valid" value="hohe Wahrscheinlichkeit"/>
+      <Value displayValue="mittlere Wahrscheinlichkeit" property="valid" value="mittlere Wahrscheinlichkeit"/>
+</DataField>
+    <DataField dataType="string" displayName="Unkritisch Wehleidiger" isCyclic="0" name="Unkritisch Wehleidiger" optype="categorical">
+      <Value displayValue="geringe Wahrscheinlichkeit" property="valid" value="geringe Wahrscheinlichkeit"/>
+      <Value displayValue="hohe Wahrscheinlichkeit" property="valid" value="hohe Wahrscheinlichkeit"/>
+      <Value displayValue="mittlere Wahrscheinlichkeit" property="valid" value="mittlere Wahrscheinlichkeit"/>
+</DataField>
+    <DataField dataType="string" displayName="Skeptischer Verweigere" isCyclic="0" name="Skeptischer Verweigere" optype="categorical">
+      <Value displayValue="geringe Wahrscheinlichkeit" property="valid" value="geringe Wahrscheinlichkeit"/>
+      <Value displayValue="hohe Wahrscheinlichkeit" property="valid" value="hohe Wahrscheinlichkeit"/>
+      <Value displayValue="mittlere Wahrscheinlichkeit" property="valid" value="mittlere Wahrscheinlichkeit"/>
+</DataField>
+    <DataField dataType="string" displayName="Informierter Koerperbewusster" isCyclic="0" name="Informierter Koerperbewusster" optype="categorical">
+      <Value displayValue="geringe Wahrscheinlichkeit" property="valid" value="geringe Wahrscheinlichkeit"/>
+      <Value displayValue="hohe Wahrscheinlichkeit" property="valid" value="hohe Wahrscheinlichkeit"/>
+      <Value displayValue="mittlere Wahrscheinlichkeit" property="valid" value="mittlere Wahrscheinlichkeit"/>
+</DataField>
+    <DataField dataType="string" displayName="Eingeschraenkter Kassenpatient" isCyclic="0" name="Eingeschraenkter Kassenpatient" optype="categorical"/>
+    <DataField dataType="string" displayName="Konservativer Arztglaeubiger" isCyclic="0" name="Konservativer Arztglaeubiger" optype="categorical">
+      <Value displayValue="geringe Wahrscheinlichkeit" property="valid" value="geringe Wahrscheinlichkeit"/>
+      <Value displayValue="hohe Wahrscheinlichkeit" property="valid" value="hohe Wahrscheinlichkeit"/>
+      <Value displayValue="mittlere Wahrscheinlichkeit" property="valid" value="mittlere Wahrscheinlichkeit"/>
+</DataField>
+    <DataField dataType="string" displayName="Aboscore" isCyclic="0" name="Aboscore" optype="categorical">
+      <Value displayValue="geringe Wahrscheinlichkeit" property="valid" value="geringe Wahrscheinlichkeit"/>
+      <Value displayValue="hohe Wahrscheinlichkeit" property="valid" value="hohe Wahrscheinlichkeit"/>
+      <Value displayValue="mittlere Wahrscheinlichkeit" property="valid" value="mittlere Wahrscheinlichkeit"/>
+</DataField>
+    <DataField dataType="string" displayName="Sinus-Milieus" isCyclic="0" name="Sinus-Milieus" optype="categorical">
+      <Value displayValue="1" property="valid" value="1"/>
+      <Value displayValue="ADA" property="valid" value="ADA"/>
+      <Value displayValue="ETB" property="valid" value="ETB"/>
+      <Value displayValue="HED" property="valid" value="HED"/>
+      <Value displayValue="INT" property="valid" value="INT"/>
+      <Value displayValue="MAT" property="valid" value="MAT"/>
+      <Value displayValue="MBL" property="valid" value="MBL"/>
+      <Value displayValue="POM" property="valid" value="POM"/>
+      <Value displayValue="STA" property="valid" value="STA"/>
+      <Value displayValue="TBL" property="valid" value="TBL"/>
+      <Value displayValue="TRA" property="valid" value="TRA"/>
+</DataField>
+    <DataField dataType="string" displayName="ABC" isCyclic="0" name="ABC" optype="categorical">
+      <Value displayValue="C" property="valid" value="C"/>
+      <Value displayValue="B" property="valid" value="B"/>
+      <Value displayValue="A" property="valid" value="A"/>
+</DataField>
+    <DataField dataType="string" displayName="Churn" isCyclic="0" name="Churn" optype="categorical">
+      <Value displayValue="Kuendiger" property="valid" value="Kuendiger"/>
+      <Value displayValue="Kunde" property="valid" value="Kunde"/>
+</DataField>
+</DataDictionary>
+  <TreeModel algorithmName="CHAID" functionName="classification">
+    <Extension extender="spss.com">
+      <X-risk value="0.237841945288754"/>
+      <X-seOfRisk value="0.0117365053579304"/>
+</Extension>
+    <MiningSchema>
+      <MiningField importance="0.245161" name="Informierter Koerperbewusster" usageType="active"/>
+      <MiningField importance="0.152131" name="Geschlecht" usageType="active"/>
+      <MiningField importance="0.0194706" name="Kaufkraft" usageType="active"/>
+      <MiningField importance="0.114113" name="Sinus-Milieus" usageType="active"/>
+      <MiningField importance="0.0313085" name="Skeptisch Gleichgueltiger" usageType="active"/>
+      <MiningField importance="0.0424359" name="Gesunder Kraftprotz" usageType="active"/>
+      <MiningField importance="0.0845645" name="Anspruchsvoller Delegierer" usageType="active"/>
+      <MiningField importance="0.0397166" name="Distinguiert Konservativer" usageType="active"/>
+      <MiningField importance="0.0134993" name="Fernwaermeabnehmer" usageType="active"/>
+      <MiningField importance="0.0318034" name="Familienstand" usageType="active"/>
+      <MiningField importance="0.0818734" name="DAUER_Kundenbeziehung" usageType="active"/>
+      <MiningField importance="0.0256521" name="Gebiet" usageType="active"/>
+      <MiningField importance="0.0246517" name="HatKinder" usageType="active"/>
+      <MiningField importance="0.0507862" name="Bebauung" usageType="active"/>
+      <MiningField importance="0.0428331" name="Aboscore" usageType="active"/>
+      <MiningField name="Churn" usageType="predicted"/>
+</MiningSchema>
+    <Output>
+      <OutputField dataType="string" feature="predictedValue" name="$R-Churn"/>
+      <OutputField dataType="double" feature="probability" name="$RP-Churn"/>
+      <OutputField dataType="double" feature="probability" name="$RP-Kuendiger" value="Kuendiger"/>
+      <OutputField dataType="double" feature="probability" name="$RP-Kunde" value="Kunde"/>
+      <OutputField dataType="integer" feature="entityId" name="$RI-Churn"/>
+</Output>
+    <ModelStats>
+      <UnivariateStats field="Informierter Koerperbewusster">
+        <Counts invalidFreq="0" missingFreq="0" totalFreq="1316"/>
+</UnivariateStats>
+      <UnivariateStats field="Geschlecht">
+        <Counts invalidFreq="0" missingFreq="0" totalFreq="1316"/>
+</UnivariateStats>
+      <UnivariateStats field="Kaufkraft">
+        <Counts invalidFreq="0" missingFreq="0" totalFreq="1316"/>
+</UnivariateStats>
+      <UnivariateStats field="Sinus-Milieus">
+        <Counts invalidFreq="0" missingFreq="0" totalFreq="1316"/>
+</UnivariateStats>
+      <UnivariateStats field="Skeptisch Gleichgueltiger">
+        <Counts invalidFreq="0" missingFreq="0" totalFreq="1316"/>
+</UnivariateStats>
+      <UnivariateStats field="Gesunder Kraftprotz">
+        <Counts invalidFreq="0" missingFreq="0" totalFreq="1316"/>
+</UnivariateStats>
+      <UnivariateStats field="Anspruchsvoller Delegierer">
+        <Counts invalidFreq="0" missingFreq="0" totalFreq="1316"/>
+</UnivariateStats>
+      <UnivariateStats field="Distinguiert Konservativer">
+        <Counts invalidFreq="0" missingFreq="0" totalFreq="1316"/>
+</UnivariateStats>
+      <UnivariateStats field="Fernwaermeabnehmer">
+        <Counts invalidFreq="0" missingFreq="0" totalFreq="1316"/>
+        <NumericInfo maximum="1" minimum="0"/>
+</UnivariateStats>
+      <UnivariateStats field="Familienstand">
+        <Counts invalidFreq="0" missingFreq="0" totalFreq="1316"/>
+</UnivariateStats>
+      <UnivariateStats field="DAUER_Kundenbeziehung">
+        <Counts invalidFreq="0" missingFreq="0" totalFreq="1316"/>
+        <NumericInfo maximum="5" minimum="0"/>
+</UnivariateStats>
+      <UnivariateStats field="Gebiet">
+        <Counts invalidFreq="0" missingFreq="0" totalFreq="1316"/>
+</UnivariateStats>
+      <UnivariateStats field="HatKinder">
+        <Counts invalidFreq="0" missingFreq="0" totalFreq="1316"/>
+</UnivariateStats>
+      <UnivariateStats field="Bebauung">
+        <Counts invalidFreq="0" missingFreq="0" totalFreq="1316"/>
+</UnivariateStats>
+      <UnivariateStats field="Aboscore">
+        <Counts invalidFreq="0" missingFreq="0" totalFreq="1316"/>
+</UnivariateStats>
+</ModelStats>
+    <Node defaultChild="1" id="0" recordCount="1316" score="Kunde">
+      <Extension>
+        <X-Node>
+          <X-NodeStats adjPValue="1.38558235997263e-46" chiSquare="211.185587499895" df1="2"/>
+</X-Node>
+</Extension>
+      <True/>
+      <ScoreDistribution confidence="0.405775075987842" probability="0.405775075987842" recordCount="534" value="Kuendiger">
+        <Extension extender="spss.com" name="probability" value="0.405775075987842"/>
+</ScoreDistribution>
+      <ScoreDistribution confidence="0.594224924012158" probability="0.594224924012158" recordCount="782" value="Kunde">
+        <Extension extender="spss.com" name="probability" value="0.594224924012158"/>
+</ScoreDistribution>
+      <Node defaultChild="4" id="1" recordCount="575" score="Kunde">
+        <Extension>
+          <X-Node>
+            <X-NodeStats adjPValue="4.9020905088571e-09" chiSquare="34.227907212686" df1="1"/>
+</X-Node>
+</Extension>
+        <CompoundPredicate booleanOperator="surrogate">
+          <CompoundPredicate booleanOperator="or">
+            <SimplePredicate field="Informierter Koerperbewusster" operator="equal" value="geringe Wahrscheinlichkeit"/>
+            <False/>
+</CompoundPredicate>
+          <True/>
+</CompoundPredicate>
+        <ScoreDistribution confidence="0.266086956521739" probability="0.266086956521739" recordCount="153" value="Kuendiger">
+          <Extension extender="spss.com" name="probability" value="0.266086956521739"/>
+</ScoreDistribution>
+        <ScoreDistribution confidence="0.733913043478261" probability="0.733913043478261" recordCount="422" value="Kunde">
+          <Extension extender="spss.com" name="probability" value="0.733913043478261"/>
+</ScoreDistribution>
+        <Node defaultChild="12" id="4" recordCount="333" score="Kunde">
+          <Extension>
+            <X-Node>
+              <X-NodeStats adjPValue="6.0545496145899e-05" chiSquare="18.1720570532915" df1="1"/>
+</X-Node>
+</Extension>
+          <CompoundPredicate booleanOperator="surrogate">
+            <CompoundPredicate booleanOperator="or">
+              <SimplePredicate field="Geschlecht" operator="equal" value="F"/>
+              <False/>
+</CompoundPredicate>
+            <True/>
+</CompoundPredicate>
+          <ScoreDistribution confidence="0.174174174174174" probability="0.174174174174174" recordCount="58" value="Kuendiger">
+            <Extension extender="spss.com" name="probability" value="0.174174174174174"/>
+</ScoreDistribution>
+          <ScoreDistribution confidence="0.825825825825826" probability="0.825825825825826" recordCount="275" value="Kunde">
+            <Extension extender="spss.com" name="probability" value="0.825825825825826"/>
+</ScoreDistribution>
+          <Node defaultChild="23" id="11" recordCount="108" score="Kunde">
+            <Extension>
+              <X-Node>
+                <X-NodeStats adjPValue="0.00249569055421632" chiSquare="20.8822734381916" df1="1"/>
+</X-Node>
+</Extension>
+            <CompoundPredicate booleanOperator="surrogate">
+              <CompoundPredicate booleanOperator="or">
+                <SimplePredicate field="Kaufkraft" operator="equal" value="hoch"/>
+                <False/>
+</CompoundPredicate>
+              <False/>
+</CompoundPredicate>
+            <ScoreDistribution confidence="0.0462962962962963" probability="0.0462962962962963" recordCount="5" value="Kuendiger">
+              <Extension extender="spss.com" name="probability" value="0.0462962962962963"/>
+</ScoreDistribution>
+            <ScoreDistribution confidence="0.953703703703704" probability="0.953703703703704" recordCount="103" value="Kunde">
+              <Extension extender="spss.com" name="probability" value="0.953703703703704"/>
+</ScoreDistribution>
+            <Node defaultChild="40" id="23" recordCount="94" score="Kunde">
+              <Extension>
+                <X-Node>
+                  <X-NodeStats adjPValue="0.0487469186186971" chiSquare="5.77572964669739" df1="1"/>
+</X-Node>
+</Extension>
+              <CompoundPredicate booleanOperator="surrogate">
+                <CompoundPredicate booleanOperator="or">
+                  <SimplePredicate field="Sinus-Milieus" operator="equal" value="1"/>
+                  <SimplePredicate field="Sinus-Milieus" operator="equal" value="ADA"/>
+                  <SimplePredicate field="Sinus-Milieus" operator="equal" value="ETB"/>
+                  <SimplePredicate field="Sinus-Milieus" operator="equal" value="HED"/>
+                  <SimplePredicate field="Sinus-Milieus" operator="equal" value="INT"/>
+                  <SimplePredicate field="Sinus-Milieus" operator="equal" value="MBL"/>
+                  <SimplePredicate field="Sinus-Milieus" operator="equal" value="POM"/>
+                  <SimplePredicate field="Sinus-Milieus" operator="equal" value="STA"/>
+                  <SimplePredicate field="Sinus-Milieus" operator="equal" value="TBL"/>
+</CompoundPredicate>
+                <True/>
+</CompoundPredicate>
+              <ScoreDistribution confidence="0.0106382978723404" probability="0.0106382978723404" recordCount="1" value="Kuendiger">
+                <Extension extender="spss.com" name="probability" value="0.0106382978723404"/>
+</ScoreDistribution>
+              <ScoreDistribution confidence="0.98936170212766" probability="0.98936170212766" recordCount="93" value="Kunde">
+                <Extension extender="spss.com" name="probability" value="0.98936170212766"/>
+</ScoreDistribution>
+              <Node id="39" recordCount="14" score="Kunde">
+                <CompoundPredicate booleanOperator="surrogate">
+                  <CompoundPredicate booleanOperator="or">
+                    <SimplePredicate field="Skeptisch Gleichgueltiger" operator="equal" value="geringe Wahrscheinlichkeit"/>
+                    <False/>
+</CompoundPredicate>
+                  <False/>
+</CompoundPredicate>
+                <ScoreDistribution confidence="0.0714285714285714" probability="0.0714285714285714" recordCount="1" value="Kuendiger">
+                  <Extension extender="spss.com" name="probability" value="0.0714285714285714"/>
+</ScoreDistribution>
+                <ScoreDistribution confidence="0.928571428571429" probability="0.928571428571429" recordCount="13" value="Kunde">
+                  <Extension extender="spss.com" name="probability" value="0.928571428571429"/>
+</ScoreDistribution>
+</Node>
+              <Node id="40" recordCount="80" score="Kunde">
+                <CompoundPredicate booleanOperator="surrogate">
+                  <CompoundPredicate booleanOperator="or">
+                    <SimplePredicate field="Skeptisch Gleichgueltiger" operator="equal" value="hohe Wahrscheinlichkeit"/>
+                    <SimplePredicate field="Skeptisch Gleichgueltiger" operator="equal" value="mittlere Wahrscheinlichkeit"/>
+</CompoundPredicate>
+                  <True/>
+</CompoundPredicate>
+                <ScoreDistribution confidence="0" probability="0" recordCount="0" value="Kuendiger">
+                  <Extension extender="spss.com" name="probability" value="0"/>
+</ScoreDistribution>
+                <ScoreDistribution confidence="1" probability="1" recordCount="80" value="Kunde">
+                  <Extension extender="spss.com" name="probability" value="1"/>
+</ScoreDistribution>
+</Node>
+</Node>
+            <Node id="24" recordCount="14" score="Kunde">
+              <CompoundPredicate booleanOperator="surrogate">
+                <CompoundPredicate booleanOperator="or">
+                  <SimplePredicate field="Sinus-Milieus" operator="equal" value="MAT"/>
+                  <False/>
+</CompoundPredicate>
+                <False/>
+</CompoundPredicate>
+              <ScoreDistribution confidence="0.285714285714286" probability="0.285714285714286" recordCount="4" value="Kuendiger">
+                <Extension extender="spss.com" name="probability" value="0.285714285714286"/>
+</ScoreDistribution>
+              <ScoreDistribution confidence="0.714285714285714" probability="0.714285714285714" recordCount="10" value="Kunde">
+                <Extension extender="spss.com" name="probability" value="0.714285714285714"/>
+</ScoreDistribution>
+</Node>
+</Node>
+          <Node id="12" recordCount="225" score="Kunde">
+            <CompoundPredicate booleanOperator="surrogate">
+              <CompoundPredicate booleanOperator="or">
+                <SimplePredicate field="Kaufkraft" operator="equal" value="mittel"/>
+                <SimplePredicate field="Kaufkraft" operator="equal" value="niedrig"/>
+</CompoundPredicate>
+              <True/>
+</CompoundPredicate>
+            <ScoreDistribution confidence="0.235555555555556" probability="0.235555555555556" recordCount="53" value="Kuendiger">
+              <Extension extender="spss.com" name="probability" value="0.235555555555556"/>
+</ScoreDistribution>
+            <ScoreDistribution confidence="0.764444444444444" probability="0.764444444444444" recordCount="172" value="Kunde">
+              <Extension extender="spss.com" name="probability" value="0.764444444444444"/>
+</ScoreDistribution>
+</Node>
+</Node>
+        <Node defaultChild="13" id="5" recordCount="242" score="Kunde">
+          <Extension>
+            <X-Node>
+              <X-NodeStats adjPValue="0.00014744756806865" chiSquare="16.4806477391195" df1="1"/>
+</X-Node>
+</Extension>
+          <CompoundPredicate booleanOperator="surrogate">
+            <CompoundPredicate booleanOperator="or">
+              <SimplePredicate field="Geschlecht" operator="equal" value="M"/>
+              <False/>
+</CompoundPredicate>
+            <False/>
+</CompoundPredicate>
+          <ScoreDistribution confidence="0.392561983471074" probability="0.392561983471074" recordCount="95" value="Kuendiger">
+            <Extension extender="spss.com" name="probability" value="0.392561983471074"/>
+</ScoreDistribution>
+          <ScoreDistribution confidence="0.607438016528926" probability="0.607438016528926" recordCount="147" value="Kunde">
+            <Extension extender="spss.com" name="probability" value="0.607438016528926"/>
+</ScoreDistribution>
+          <Node defaultChild="26" id="13" recordCount="156" score="Kunde">
+            <Extension>
+              <X-Node>
+                <X-NodeStats adjPValue="0.0272014208772439" chiSquare="6.80955411785277" df1="1"/>
+</X-Node>
+</Extension>
+            <CompoundPredicate booleanOperator="surrogate">
+              <CompoundPredicate booleanOperator="or">
+                <SimplePredicate field="Gesunder Kraftprotz" operator="equal" value="geringe Wahrscheinlichkeit"/>
+                <SimplePredicate field="Gesunder Kraftprotz" operator="equal" value="hohe Wahrscheinlichkeit"/>
+</CompoundPredicate>
+              <True/>
+</CompoundPredicate>
+            <ScoreDistribution confidence="0.487179487179487" probability="0.487179487179487" recordCount="76" value="Kuendiger">
+              <Extension extender="spss.com" name="probability" value="0.487179487179487"/>
+</ScoreDistribution>
+            <ScoreDistribution confidence="0.512820512820513" probability="0.512820512820513" recordCount="80" value="Kunde">
+              <Extension extender="spss.com" name="probability" value="0.512820512820513"/>
+</ScoreDistribution>
+            <Node defaultChild="41" id="25" recordCount="70" score="Kunde">
+              <Extension>
+                <X-Node>
+                  <X-NodeStats adjPValue="0.0302562203055289" chiSquare="6.61974862258953" df1="1"/>
+</X-Node>
+</Extension>
+              <CompoundPredicate booleanOperator="surrogate">
+                <CompoundPredicate booleanOperator="or">
+                  <SimplePredicate field="Anspruchsvoller Delegierer" operator="equal" value="geringe Wahrscheinlichkeit"/>
+                  <False/>
+</CompoundPredicate>
+                <False/>
+</CompoundPredicate>
+              <ScoreDistribution confidence="0.371428571428571" probability="0.371428571428571" recordCount="26" value="Kuendiger">
+                <Extension extender="spss.com" name="probability" value="0.371428571428571"/>
+</ScoreDistribution>
+              <ScoreDistribution confidence="0.628571428571429" probability="0.628571428571429" recordCount="44" value="Kunde">
+                <Extension extender="spss.com" name="probability" value="0.628571428571429"/>
+</ScoreDistribution>
+              <Node id="41" recordCount="48" score="Kunde">
+                <CompoundPredicate booleanOperator="surrogate">
+                  <CompoundPredicate booleanOperator="or">
+                    <SimplePredicate field="Distinguiert Konservativer" operator="equal" value="geringe Wahrscheinlichkeit"/>
+                    <SimplePredicate field="Distinguiert Konservativer" operator="equal" value="mittlere Wahrscheinlichkeit"/>
+</CompoundPredicate>
+                  <True/>
+</CompoundPredicate>
+                <ScoreDistribution confidence="0.270833333333333" probability="0.270833333333333" recordCount="13" value="Kuendiger">
+                  <Extension extender="spss.com" name="probability" value="0.270833333333333"/>
+</ScoreDistribution>
+                <ScoreDistribution confidence="0.729166666666667" probability="0.729166666666667" recordCount="35" value="Kunde">
+                  <Extension extender="spss.com" name="probability" value="0.729166666666667"/>
+</ScoreDistribution>
+</Node>
+              <Node id="42" recordCount="22" score="Kuendiger">
+                <CompoundPredicate booleanOperator="surrogate">
+                  <CompoundPredicate booleanOperator="or">
+                    <SimplePredicate field="Distinguiert Konservativer" operator="equal" value="hohe Wahrscheinlichkeit"/>
+                    <False/>
+</CompoundPredicate>
+                  <False/>
+</CompoundPredicate>
+                <ScoreDistribution confidence="0.590909090909091" probability="0.590909090909091" recordCount="13" value="Kuendiger">
+                  <Extension extender="spss.com" name="probability" value="0.590909090909091"/>
+</ScoreDistribution>
+                <ScoreDistribution confidence="0.409090909090909" probability="0.409090909090909" recordCount="9" value="Kunde">
+                  <Extension extender="spss.com" name="probability" value="0.409090909090909"/>
+</ScoreDistribution>
+</Node>
+</Node>
+            <Node defaultChild="43" id="26" recordCount="86" score="Kuendiger">
+              <Extension>
+                <X-Node>
+                  <X-NodeStats adjPValue="0.0203575733854281" chiSquare="16.8790586520947" df1="1"/>
+</X-Node>
+</Extension>
+              <CompoundPredicate booleanOperator="surrogate">
+                <CompoundPredicate booleanOperator="or">
+                  <SimplePredicate field="Anspruchsvoller Delegierer" operator="equal" value="hohe Wahrscheinlichkeit"/>
+                  <SimplePredicate field="Anspruchsvoller Delegierer" operator="equal" value="mittlere Wahrscheinlichkeit"/>
+</CompoundPredicate>
+                <True/>
+</CompoundPredicate>
+              <ScoreDistribution confidence="0.581395348837209" probability="0.581395348837209" recordCount="50" value="Kuendiger">
+                <Extension extender="spss.com" name="probability" value="0.581395348837209"/>
+</ScoreDistribution>
+              <ScoreDistribution confidence="0.418604651162791" probability="0.418604651162791" recordCount="36" value="Kunde">
+                <Extension extender="spss.com" name="probability" value="0.418604651162791"/>
+</ScoreDistribution>
+              <Node id="43" recordCount="61" score="Kuendiger">
+                <CompoundPredicate booleanOperator="surrogate">
+                  <CompoundPredicate booleanOperator="or">
+                    <SimplePredicate field="Sinus-Milieus" operator="equal" value="1"/>
+                    <SimplePredicate field="Sinus-Milieus" operator="equal" value="ETB"/>
+                    <SimplePredicate field="Sinus-Milieus" operator="equal" value="HED"/>
+                    <SimplePredicate field="Sinus-Milieus" operator="equal" value="MAT"/>
+                    <SimplePredicate field="Sinus-Milieus" operator="equal" value="POM"/>
+</CompoundPredicate>
+                  <True/>
+</CompoundPredicate>
+                <ScoreDistribution confidence="0.721311475409836" probability="0.721311475409836" recordCount="44" value="Kuendiger">
+                  <Extension extender="spss.com" name="probability" value="0.721311475409836"/>
+</ScoreDistribution>
+                <ScoreDistribution confidence="0.278688524590164" probability="0.278688524590164" recordCount="17" value="Kunde">
+                  <Extension extender="spss.com" name="probability" value="0.278688524590164"/>
+</ScoreDistribution>
+</Node>
+              <Node id="44" recordCount="25" score="Kunde">
+                <CompoundPredicate booleanOperator="surrogate">
+                  <CompoundPredicate booleanOperator="or">
+                    <SimplePredicate field="Sinus-Milieus" operator="equal" value="ADA"/>
+                    <SimplePredicate field="Sinus-Milieus" operator="equal" value="INT"/>
+                    <SimplePredicate field="Sinus-Milieus" operator="equal" value="STA"/>
+                    <SimplePredicate field="Sinus-Milieus" operator="equal" value="TBL"/>
+                    <SimplePredicate field="Sinus-Milieus" operator="equal" value="TRA"/>
+</CompoundPredicate>
+                  <False/>
+</CompoundPredicate>
+                <ScoreDistribution confidence="0.24" probability="0.24" recordCount="6" value="Kuendiger">
+                  <Extension extender="spss.com" name="probability" value="0.24"/>
+</ScoreDistribution>
+                <ScoreDistribution confidence="0.76" probability="0.76" recordCount="19" value="Kunde">
+                  <Extension extender="spss.com" name="probability" value="0.76"/>
+</ScoreDistribution>
+</Node>
+</Node>
+</Node>
+          <Node defaultChild="27" id="14" recordCount="86" score="Kunde">
+            <Extension>
+              <X-Node>
+                <X-NodeStats adjPValue="0.00660355420027268" chiSquare="9.37371902449475" df1="1"/>
+</X-Node>
+</Extension>
+            <CompoundPredicate booleanOperator="surrogate">
+              <CompoundPredicate booleanOperator="or">
+                <SimplePredicate field="Gesunder Kraftprotz" operator="equal" value="mittlere Wahrscheinlichkeit"/>
+                <False/>
+</CompoundPredicate>
+              <False/>
+</CompoundPredicate>
+            <ScoreDistribution confidence="0.220930232558139" probability="0.220930232558139" recordCount="19" value="Kuendiger">
+              <Extension extender="spss.com" name="probability" value="0.220930232558139"/>
+</ScoreDistribution>
+            <ScoreDistribution confidence="0.779069767441861" probability="0.779069767441861" recordCount="67" value="Kunde">
+              <Extension extender="spss.com" name="probability" value="0.779069767441861"/>
+</ScoreDistribution>
+            <Node id="27" recordCount="64" score="Kunde">
+              <CompoundPredicate booleanOperator="surrogate">
+                <CompoundPredicate booleanOperator="or">
+                  <SimplePredicate field="Distinguiert Konservativer" operator="equal" value="geringe Wahrscheinlichkeit"/>
+                  <SimplePredicate field="Distinguiert Konservativer" operator="equal" value="hohe Wahrscheinlichkeit"/>
+</CompoundPredicate>
+                <True/>
+</CompoundPredicate>
+              <ScoreDistribution confidence="0.140625" probability="0.140625" recordCount="9" value="Kuendiger">
+                <Extension extender="spss.com" name="probability" value="0.140625"/>
+</ScoreDistribution>
+              <ScoreDistribution confidence="0.859375" probability="0.859375" recordCount="55" value="Kunde">
+                <Extension extender="spss.com" name="probability" value="0.859375"/>
+</ScoreDistribution>
+</Node>
+            <Node id="28" recordCount="22" score="Kunde">
+              <CompoundPredicate booleanOperator="surrogate">
+                <CompoundPredicate booleanOperator="or">
+                  <SimplePredicate field="Distinguiert Konservativer" operator="equal" value="mittlere Wahrscheinlichkeit"/>
+                  <False/>
+</CompoundPredicate>
+                <False/>
+</CompoundPredicate>
+              <ScoreDistribution confidence="0.454545454545454" probability="0.454545454545454" recordCount="10" value="Kuendiger">
+                <Extension extender="spss.com" name="probability" value="0.454545454545454"/>
+</ScoreDistribution>
+              <ScoreDistribution confidence="0.545454545454545" probability="0.545454545454545" recordCount="12" value="Kunde">
+                <Extension extender="spss.com" name="probability" value="0.545454545454545"/>
+</ScoreDistribution>
+</Node>
+</Node>
+</Node>
+</Node>
+      <Node defaultChild="7" id="2" recordCount="565" score="Kuendiger">
+        <Extension>
+          <X-Node>
+            <X-NodeStats adjPValue="7.91153126686677e-12" chiSquare="46.7875278884189" df1="1"/>
+</X-Node>
+</Extension>
+        <CompoundPredicate booleanOperator="surrogate">
+          <CompoundPredicate booleanOperator="or">
+            <SimplePredicate field="Informierter Koerperbewusster" operator="equal" value="hohe Wahrscheinlichkeit"/>
+            <False/>
+</CompoundPredicate>
+          <False/>
+</CompoundPredicate>
+        <ScoreDistribution confidence="0.628318584070796" probability="0.628318584070796" recordCount="355" value="Kuendiger">
+          <Extension extender="spss.com" name="probability" value="0.628318584070796"/>
+</ScoreDistribution>
+        <ScoreDistribution confidence="0.371681415929204" probability="0.371681415929204" recordCount="210" value="Kunde">
+          <Extension extender="spss.com" name="probability" value="0.371681415929204"/>
+</ScoreDistribution>
+        <Node defaultChild="15" id="6" recordCount="245" score="Kunde">
+          <Extension>
+            <X-Node>
+              <X-NodeStats adjPValue="0.00665311155748101" chiSquare="7.36431026446812" df1="1"/>
+</X-Node>
+</Extension>
+          <CompoundPredicate booleanOperator="surrogate">
+            <CompoundPredicate booleanOperator="or">
+              <SimplePredicate field="Geschlecht" operator="equal" value="F"/>
+              <False/>
+</CompoundPredicate>
+            <False/>
+</CompoundPredicate>
+          <ScoreDistribution confidence="0.469387755102041" probability="0.469387755102041" recordCount="115" value="Kuendiger">
+            <Extension extender="spss.com" name="probability" value="0.469387755102041"/>
+</ScoreDistribution>
+          <ScoreDistribution confidence="0.530612244897959" probability="0.530612244897959" recordCount="130" value="Kunde">
+            <Extension extender="spss.com" name="probability" value="0.530612244897959"/>
+</ScoreDistribution>
+          <Node defaultChild="29" id="15" recordCount="178" score="Kuendiger">
+            <Extension>
+              <X-Node>
+                <X-NodeStats adjPValue="0.0285151533514265" chiSquare="6.72537937718003" df1="1"/>
+</X-Node>
+</Extension>
+            <CompoundPredicate booleanOperator="surrogate">
+              <CompoundPredicate booleanOperator="and">
+                <True/>
+                <SimplePredicate field="Fernwaermeabnehmer" operator="lessOrEqual" value="0"/>
+</CompoundPredicate>
+              <True/>
+</CompoundPredicate>
+            <ScoreDistribution confidence="0.52247191011236" probability="0.52247191011236" recordCount="93" value="Kuendiger">
+              <Extension extender="spss.com" name="probability" value="0.52247191011236"/>
+</ScoreDistribution>
+            <ScoreDistribution confidence="0.47752808988764" probability="0.47752808988764" recordCount="85" value="Kunde">
+              <Extension extender="spss.com" name="probability" value="0.47752808988764"/>
+</ScoreDistribution>
+            <Node defaultChild="45" id="29" recordCount="133" score="Kuendiger">
+              <Extension>
+                <X-Node>
+                  <X-NodeStats adjPValue="0.0397335490300397" chiSquare="6.13615285423796" df1="1"/>
+</X-Node>
+</Extension>
+              <CompoundPredicate booleanOperator="surrogate">
+                <CompoundPredicate booleanOperator="or">
+                  <SimplePredicate field="Anspruchsvoller Delegierer" operator="equal" value="geringe Wahrscheinlichkeit"/>
+                  <SimplePredicate field="Anspruchsvoller Delegierer" operator="equal" value="mittlere Wahrscheinlichkeit"/>
+</CompoundPredicate>
+                <True/>
+</CompoundPredicate>
+              <ScoreDistribution confidence="0.578947368421053" probability="0.578947368421053" recordCount="77" value="Kuendiger">
+                <Extension extender="spss.com" name="probability" value="0.578947368421053"/>
+</ScoreDistribution>
+              <ScoreDistribution confidence="0.421052631578947" probability="0.421052631578947" recordCount="56" value="Kunde">
+                <Extension extender="spss.com" name="probability" value="0.421052631578947"/>
+</ScoreDistribution>
+              <Node id="45" recordCount="94" score="Kuendiger">
+                <CompoundPredicate booleanOperator="surrogate">
+                  <CompoundPredicate booleanOperator="or">
+                    <SimplePredicate field="Familienstand" operator="isMissing"/>
+                    <SimplePredicate field="Familienstand" operator="equal" value="single"/>
+                    <False/>
+</CompoundPredicate>
+                  <True/>
+</CompoundPredicate>
+                <ScoreDistribution confidence="0.51063829787234" probability="0.51063829787234" recordCount="48" value="Kuendiger">
+                  <Extension extender="spss.com" name="probability" value="0.51063829787234"/>
+</ScoreDistribution>
+                <ScoreDistribution confidence="0.48936170212766" probability="0.48936170212766" recordCount="46" value="Kunde">
+                  <Extension extender="spss.com" name="probability" value="0.48936170212766"/>
+</ScoreDistribution>
+</Node>
+              <Node id="46" recordCount="39" score="Kuendiger">
+                <CompoundPredicate booleanOperator="surrogate">
+                  <CompoundPredicate booleanOperator="or">
+                    <SimplePredicate field="Familienstand" operator="equal" value="verheiratet"/>
+                    <False/>
+</CompoundPredicate>
+                  <False/>
+</CompoundPredicate>
+                <ScoreDistribution confidence="0.743589743589744" probability="0.743589743589744" recordCount="29" value="Kuendiger">
+                  <Extension extender="spss.com" name="probability" value="0.743589743589744"/>
+</ScoreDistribution>
+                <ScoreDistribution confidence="0.256410256410256" probability="0.256410256410256" recordCount="10" value="Kunde">
+                  <Extension extender="spss.com" name="probability" value="0.256410256410256"/>
+</ScoreDistribution>
+</Node>
+</Node>
+            <Node id="30" recordCount="45" score="Kunde">
+              <CompoundPredicate booleanOperator="surrogate">
+                <CompoundPredicate booleanOperator="or">
+                  <SimplePredicate field="Anspruchsvoller Delegierer" operator="equal" value="hohe Wahrscheinlichkeit"/>
+                  <False/>
+</CompoundPredicate>
+                <False/>
+</CompoundPredicate>
+              <ScoreDistribution confidence="0.355555555555556" probability="0.355555555555556" recordCount="16" value="Kuendiger">
+                <Extension extender="spss.com" name="probability" value="0.355555555555556"/>
+</ScoreDistribution>
+              <ScoreDistribution confidence="0.644444444444444" probability="0.644444444444444" recordCount="29" value="Kunde">
+                <Extension extender="spss.com" name="probability" value="0.644444444444444"/>
+</ScoreDistribution>
+</Node>
+</Node>
+          <Node id="16" recordCount="67" score="Kunde">
+            <CompoundPredicate booleanOperator="surrogate">
+              <CompoundPredicate booleanOperator="and">
+                <SimplePredicate field="Fernwaermeabnehmer" operator="greaterThan" value="0"/>
+                <True/>
+</CompoundPredicate>
+              <False/>
+</CompoundPredicate>
+            <ScoreDistribution confidence="0.328358208955224" probability="0.328358208955224" recordCount="22" value="Kuendiger">
+              <Extension extender="spss.com" name="probability" value="0.328358208955224"/>
+</ScoreDistribution>
+            <ScoreDistribution confidence="0.671641791044776" probability="0.671641791044776" recordCount="45" value="Kunde">
+              <Extension extender="spss.com" name="probability" value="0.671641791044776"/>
+</ScoreDistribution>
+</Node>
+</Node>
+        <Node defaultChild="20" id="7" recordCount="320" score="Kuendiger">
+          <Extension>
+            <X-Node>
+              <X-NodeStats adjPValue="0.00110491967176555" chiSquare="20.8988668739353" df1="3"/>
+</X-Node>
+</Extension>
+          <CompoundPredicate booleanOperator="surrogate">
+            <CompoundPredicate booleanOperator="or">
+              <SimplePredicate field="Geschlecht" operator="equal" value="M"/>
+              <False/>
+</CompoundPredicate>
+            <True/>
+</CompoundPredicate>
+          <ScoreDistribution confidence="0.75" probability="0.75" recordCount="240" value="Kuendiger">
+            <Extension extender="spss.com" name="probability" value="0.75"/>
+</ScoreDistribution>
+          <ScoreDistribution confidence="0.25" probability="0.25" recordCount="80" value="Kunde">
+            <Extension extender="spss.com" name="probability" value="0.25"/>
+</ScoreDistribution>
+          <Node defaultChild="32" id="17" recordCount="53" score="Kuendiger">
+            <Extension>
+              <X-Node>
+                <X-NodeStats adjPValue="0.00247083618276852" chiSquare="9.16206482593037" df1="1"/>
+</X-Node>
+</Extension>
+            <CompoundPredicate booleanOperator="surrogate">
+              <CompoundPredicate booleanOperator="and">
+                <True/>
+                <SimplePredicate field="DAUER_Kundenbeziehung" operator="lessOrEqual" value="5"/>
+</CompoundPredicate>
+              <False/>
+</CompoundPredicate>
+            <ScoreDistribution confidence="0.924528301886792" probability="0.924528301886792" recordCount="49" value="Kuendiger">
+              <Extension extender="spss.com" name="probability" value="0.924528301886792"/>
+</ScoreDistribution>
+            <ScoreDistribution confidence="0.0754716981132075" probability="0.0754716981132075" recordCount="4" value="Kunde">
+              <Extension extender="spss.com" name="probability" value="0.0754716981132075"/>
+</ScoreDistribution>
+            <Node id="31" recordCount="17" score="Kuendiger">
+              <CompoundPredicate booleanOperator="surrogate">
+                <CompoundPredicate booleanOperator="or">
+                  <SimplePredicate field="Gebiet" operator="equal" value="Land"/>
+                  <False/>
+</CompoundPredicate>
+                <False/>
+</CompoundPredicate>
+              <ScoreDistribution confidence="0.764705882352941" probability="0.764705882352941" recordCount="13" value="Kuendiger">
+                <Extension extender="spss.com" name="probability" value="0.764705882352941"/>
+</ScoreDistribution>
+              <ScoreDistribution confidence="0.235294117647059" probability="0.235294117647059" recordCount="4" value="Kunde">
+                <Extension extender="spss.com" name="probability" value="0.235294117647059"/>
+</ScoreDistribution>
+</Node>
+            <Node id="32" recordCount="36" score="Kuendiger">
+              <CompoundPredicate booleanOperator="surrogate">
+                <CompoundPredicate booleanOperator="or">
+                  <SimplePredicate field="Gebiet" operator="equal" value="Stadt"/>
+                  <False/>
+</CompoundPredicate>
+                <True/>
+</CompoundPredicate>
+              <ScoreDistribution confidence="1" probability="1" recordCount="36" value="Kuendiger">
+                <Extension extender="spss.com" name="probability" value="1"/>
+</ScoreDistribution>
+              <ScoreDistribution confidence="0" probability="0" recordCount="0" value="Kunde">
+                <Extension extender="spss.com" name="probability" value="0"/>
+</ScoreDistribution>
+</Node>
+</Node>
+          <Node id="18" recordCount="95" score="Kuendiger">
+            <CompoundPredicate booleanOperator="surrogate">
+              <CompoundPredicate booleanOperator="and">
+                <SimplePredicate field="DAUER_Kundenbeziehung" operator="greaterThan" value="5"/>
+                <SimplePredicate field="DAUER_Kundenbeziehung" operator="lessOrEqual" value="8"/>
+</CompoundPredicate>
+              <False/>
+</CompoundPredicate>
+            <ScoreDistribution confidence="0.631578947368421" probability="0.631578947368421" recordCount="60" value="Kuendiger">
+              <Extension extender="spss.com" name="probability" value="0.631578947368421"/>
+</ScoreDistribution>
+            <ScoreDistribution confidence="0.368421052631579" probability="0.368421052631579" recordCount="35" value="Kunde">
+              <Extension extender="spss.com" name="probability" value="0.368421052631579"/>
+</ScoreDistribution>
+</Node>
+          <Node defaultChild="33" id="19" recordCount="59" score="Kuendiger">
+            <Extension>
+              <X-Node>
+                <X-NodeStats adjPValue="0.00158380878898043" chiSquare="9.97847412920942" df1="1"/>
+</X-Node>
+</Extension>
+            <CompoundPredicate booleanOperator="surrogate">
+              <CompoundPredicate booleanOperator="and">
+                <SimplePredicate field="DAUER_Kundenbeziehung" operator="greaterThan" value="8"/>
+                <SimplePredicate field="DAUER_Kundenbeziehung" operator="lessOrEqual" value="10"/>
+</CompoundPredicate>
+              <False/>
+</CompoundPredicate>
+            <ScoreDistribution confidence="0.864406779661017" probability="0.864406779661017" recordCount="51" value="Kuendiger">
+              <Extension extender="spss.com" name="probability" value="0.864406779661017"/>
+</ScoreDistribution>
+            <ScoreDistribution confidence="0.135593220338983" probability="0.135593220338983" recordCount="8" value="Kunde">
+              <Extension extender="spss.com" name="probability" value="0.135593220338983"/>
+</ScoreDistribution>
+            <Node id="33" recordCount="37" score="Kuendiger">
+              <CompoundPredicate booleanOperator="surrogate">
+                <CompoundPredicate booleanOperator="or">
+                  <SimplePredicate field="HatKinder" operator="equal" value="ja"/>
+                  <False/>
+</CompoundPredicate>
+                <True/>
+</CompoundPredicate>
+              <ScoreDistribution confidence="0.972972972972973" probability="0.972972972972973" recordCount="36" value="Kuendiger">
+                <Extension extender="spss.com" name="probability" value="0.972972972972973"/>
+</ScoreDistribution>
+              <ScoreDistribution confidence="0.027027027027027" probability="0.027027027027027" recordCount="1" value="Kunde">
+                <Extension extender="spss.com" name="probability" value="0.027027027027027"/>
+</ScoreDistribution>
+</Node>
+            <Node id="34" recordCount="22" score="Kuendiger">
+              <CompoundPredicate booleanOperator="surrogate">
+                <CompoundPredicate booleanOperator="or">
+                  <SimplePredicate field="HatKinder" operator="equal" value="nein"/>
+                  <False/>
+</CompoundPredicate>
+                <False/>
+</CompoundPredicate>
+              <ScoreDistribution confidence="0.681818181818182" probability="0.681818181818182" recordCount="15" value="Kuendiger">
+                <Extension extender="spss.com" name="probability" value="0.681818181818182"/>
+</ScoreDistribution>
+              <ScoreDistribution confidence="0.318181818181818" probability="0.318181818181818" recordCount="7" value="Kunde">
+                <Extension extender="spss.com" name="probability" value="0.318181818181818"/>
+</ScoreDistribution>
+</Node>
+</Node>
+          <Node defaultChild="36" id="20" recordCount="113" score="Kuendiger">
+            <Extension>
+              <X-Node>
+                <X-NodeStats adjPValue="0.000236790217837955" chiSquare="15.5837488088431" df1="1"/>
+</X-Node>
+</Extension>
+            <CompoundPredicate booleanOperator="surrogate">
+              <CompoundPredicate booleanOperator="and">
+                <SimplePredicate field="DAUER_Kundenbeziehung" operator="greaterThan" value="10"/>
+                <True/>
+</CompoundPredicate>
+              <True/>
+</CompoundPredicate>
+            <ScoreDistribution confidence="0.707964601769911" probability="0.707964601769911" recordCount="80" value="Kuendiger">
+              <Extension extender="spss.com" name="probability" value="0.707964601769911"/>
+</ScoreDistribution>
+            <ScoreDistribution confidence="0.292035398230089" probability="0.292035398230089" recordCount="33" value="Kunde">
+              <Extension extender="spss.com" name="probability" value="0.292035398230089"/>
+</ScoreDistribution>
+            <Node id="35" recordCount="53" score="Kuendiger">
+              <CompoundPredicate booleanOperator="surrogate">
+                <CompoundPredicate booleanOperator="or">
+                  <SimplePredicate field="Gesunder Kraftprotz" operator="equal" value="geringe Wahrscheinlichkeit"/>
+                  <SimplePredicate field="Gesunder Kraftprotz" operator="equal" value="mittlere Wahrscheinlichkeit"/>
+</CompoundPredicate>
+                <False/>
+</CompoundPredicate>
+              <ScoreDistribution confidence="0.528301886792453" probability="0.528301886792453" recordCount="28" value="Kuendiger">
+                <Extension extender="spss.com" name="probability" value="0.528301886792453"/>
+</ScoreDistribution>
+              <ScoreDistribution confidence="0.471698113207547" probability="0.471698113207547" recordCount="25" value="Kunde">
+                <Extension extender="spss.com" name="probability" value="0.471698113207547"/>
+</ScoreDistribution>
+</Node>
+            <Node defaultChild="48" id="36" recordCount="60" score="Kuendiger">
+              <Extension>
+                <X-Node>
+                  <X-NodeStats adjPValue="0.0199499363174911" chiSquare="8.9010989010989" df1="1"/>
+</X-Node>
+</Extension>
+              <CompoundPredicate booleanOperator="surrogate">
+                <CompoundPredicate booleanOperator="or">
+                  <SimplePredicate field="Gesunder Kraftprotz" operator="equal" value="hohe Wahrscheinlichkeit"/>
+                  <False/>
+</CompoundPredicate>
+                <True/>
+</CompoundPredicate>
+              <ScoreDistribution confidence="0.866666666666667" probability="0.866666666666667" recordCount="52" value="Kuendiger">
+                <Extension extender="spss.com" name="probability" value="0.866666666666667"/>
+</ScoreDistribution>
+              <ScoreDistribution confidence="0.133333333333333" probability="0.133333333333333" recordCount="8" value="Kunde">
+                <Extension extender="spss.com" name="probability" value="0.133333333333333"/>
+</ScoreDistribution>
+              <Node id="47" recordCount="18" score="Kuendiger">
+                <CompoundPredicate booleanOperator="surrogate">
+                  <CompoundPredicate booleanOperator="or">
+                    <SimplePredicate field="Bebauung" operator="equal" value="Drei- bis Fuenffamilienhaeuser"/>
+                    <False/>
+</CompoundPredicate>
+                  <False/>
+</CompoundPredicate>
+                <ScoreDistribution confidence="0.666666666666667" probability="0.666666666666667" recordCount="12" value="Kuendiger">
+                  <Extension extender="spss.com" name="probability" value="0.666666666666667"/>
+</ScoreDistribution>
+                <ScoreDistribution confidence="0.333333333333333" probability="0.333333333333333" recordCount="6" value="Kunde">
+                  <Extension extender="spss.com" name="probability" value="0.333333333333333"/>
+</ScoreDistribution>
+</Node>
+              <Node id="48" recordCount="42" score="Kuendiger">
+                <CompoundPredicate booleanOperator="surrogate">
+                  <CompoundPredicate booleanOperator="or">
+                    <SimplePredicate field="Bebauung" operator="equal" value="Ein- und Zweifamilienhaeuser"/>
+                    <SimplePredicate field="Bebauung" operator="equal" value="Haeuser mit 10 bis 19 Haushalten"/>
+                    <SimplePredicate field="Bebauung" operator="equal" value="Haeuser mit 6 bis 9 Haushalten"/>
+</CompoundPredicate>
+                  <True/>
+</CompoundPredicate>
+                <ScoreDistribution confidence="0.952380952380952" probability="0.952380952380952" recordCount="40" value="Kuendiger">
+                  <Extension extender="spss.com" name="probability" value="0.952380952380952"/>
+</ScoreDistribution>
+                <ScoreDistribution confidence="0.0476190476190476" probability="0.0476190476190476" recordCount="2" value="Kunde">
+                  <Extension extender="spss.com" name="probability" value="0.0476190476190476"/>
+</ScoreDistribution>
+</Node>
+</Node>
+</Node>
+</Node>
+</Node>
+      <Node defaultChild="9" id="3" recordCount="176" score="Kunde">
+        <Extension>
+          <X-Node>
+            <X-NodeStats adjPValue="5.04813016705663e-10" chiSquare="63.3290549450549" df1="2"/>
+</X-Node>
+</Extension>
+        <CompoundPredicate booleanOperator="surrogate">
+          <CompoundPredicate booleanOperator="or">
+            <SimplePredicate field="Informierter Koerperbewusster" operator="equal" value="mittlere Wahrscheinlichkeit"/>
+            <False/>
+</CompoundPredicate>
+          <False/>
+</CompoundPredicate>
+        <ScoreDistribution confidence="0.147727272727273" probability="0.147727272727273" recordCount="26" value="Kuendiger">
+          <Extension extender="spss.com" name="probability" value="0.147727272727273"/>
+</ScoreDistribution>
+        <ScoreDistribution confidence="0.852272727272727" probability="0.852272727272727" recordCount="150" value="Kunde">
+          <Extension extender="spss.com" name="probability" value="0.852272727272727"/>
+</ScoreDistribution>
+        <Node id="8" recordCount="45" score="Kunde">
+          <CompoundPredicate booleanOperator="surrogate">
+            <CompoundPredicate booleanOperator="or">
+              <SimplePredicate field="Sinus-Milieus" operator="equal" value="1"/>
+              <SimplePredicate field="Sinus-Milieus" operator="equal" value="ADA"/>
+              <SimplePredicate field="Sinus-Milieus" operator="equal" value="MBL"/>
+              <SimplePredicate field="Sinus-Milieus" operator="equal" value="STA"/>
+              <SimplePredicate field="Sinus-Milieus" operator="equal" value="TBL"/>
+              <SimplePredicate field="Sinus-Milieus" operator="equal" value="TRA"/>
+</CompoundPredicate>
+            <False/>
+</CompoundPredicate>
+          <ScoreDistribution confidence="0" probability="0" recordCount="0" value="Kuendiger">
+            <Extension extender="spss.com" name="probability" value="0"/>
+</ScoreDistribution>
+          <ScoreDistribution confidence="1" probability="1" recordCount="45" value="Kunde">
+            <Extension extender="spss.com" name="probability" value="1"/>
+</ScoreDistribution>
+</Node>
+        <Node defaultChild="21" id="9" recordCount="110" score="Kunde">
+          <Extension>
+            <X-Node>
+              <X-NodeStats adjPValue="0.0057335917568929" chiSquare="7.63218132012458" df1="1"/>
+</X-Node>
+</Extension>
+          <CompoundPredicate booleanOperator="surrogate">
+            <CompoundPredicate booleanOperator="or">
+              <SimplePredicate field="Sinus-Milieus" operator="equal" value="ETB"/>
+              <SimplePredicate field="Sinus-Milieus" operator="equal" value="HED"/>
+              <SimplePredicate field="Sinus-Milieus" operator="equal" value="INT"/>
+              <SimplePredicate field="Sinus-Milieus" operator="equal" value="POM"/>
+</CompoundPredicate>
+            <True/>
+</CompoundPredicate>
+          <ScoreDistribution confidence="0.1" probability="0.1" recordCount="11" value="Kuendiger">
+            <Extension extender="spss.com" name="probability" value="0.1"/>
+</ScoreDistribution>
+          <ScoreDistribution confidence="0.9" probability="0.9" recordCount="99" value="Kunde">
+            <Extension extender="spss.com" name="probability" value="0.9"/>
+</ScoreDistribution>
+          <Node id="21" recordCount="63" score="Kunde">
+            <CompoundPredicate booleanOperator="surrogate">
+              <CompoundPredicate booleanOperator="or">
+                <SimplePredicate field="Geschlecht" operator="equal" value="F"/>
+                <False/>
+</CompoundPredicate>
+              <True/>
+</CompoundPredicate>
+            <ScoreDistribution confidence="0.0317460317460317" probability="0.0317460317460317" recordCount="2" value="Kuendiger">
+              <Extension extender="spss.com" name="probability" value="0.0317460317460317"/>
+</ScoreDistribution>
+            <ScoreDistribution confidence="0.968253968253968" probability="0.968253968253968" recordCount="61" value="Kunde">
+              <Extension extender="spss.com" name="probability" value="0.968253968253968"/>
+</ScoreDistribution>
+</Node>
+          <Node defaultChild="38" id="22" recordCount="47" score="Kunde">
+            <Extension>
+              <X-Node>
+                <X-NodeStats adjPValue="0.00489781248695083" chiSquare="7.9167889420521" df1="1"/>
+</X-Node>
+</Extension>
+            <CompoundPredicate booleanOperator="surrogate">
+              <CompoundPredicate booleanOperator="or">
+                <SimplePredicate field="Geschlecht" operator="equal" value="M"/>
+                <False/>
+</CompoundPredicate>
+              <False/>
+</CompoundPredicate>
+            <ScoreDistribution confidence="0.191489361702128" probability="0.191489361702128" recordCount="9" value="Kuendiger">
+              <Extension extender="spss.com" name="probability" value="0.191489361702128"/>
+</ScoreDistribution>
+            <ScoreDistribution confidence="0.808510638297872" probability="0.808510638297872" recordCount="38" value="Kunde">
+              <Extension extender="spss.com" name="probability" value="0.808510638297872"/>
+</ScoreDistribution>
+            <Node id="37" recordCount="22" score="Kunde">
+              <CompoundPredicate booleanOperator="surrogate">
+                <CompoundPredicate booleanOperator="or">
+                  <SimplePredicate field="Aboscore" operator="equal" value="geringe Wahrscheinlichkeit"/>
+                  <False/>
+</CompoundPredicate>
+                <False/>
+</CompoundPredicate>
+              <ScoreDistribution confidence="0.363636363636364" probability="0.363636363636364" recordCount="8" value="Kuendiger">
+                <Extension extender="spss.com" name="probability" value="0.363636363636364"/>
+</ScoreDistribution>
+              <ScoreDistribution confidence="0.636363636363636" probability="0.636363636363636" recordCount="14" value="Kunde">
+                <Extension extender="spss.com" name="probability" value="0.636363636363636"/>
+</ScoreDistribution>
+</Node>
+            <Node id="38" recordCount="25" score="Kunde">
+              <CompoundPredicate booleanOperator="surrogate">
+                <CompoundPredicate booleanOperator="or">
+                  <SimplePredicate field="Aboscore" operator="equal" value="mittlere Wahrscheinlichkeit"/>
+                  <False/>
+</CompoundPredicate>
+                <True/>
+</CompoundPredicate>
+              <ScoreDistribution confidence="0.04" probability="0.04" recordCount="1" value="Kuendiger">
+                <Extension extender="spss.com" name="probability" value="0.04"/>
+</ScoreDistribution>
+              <ScoreDistribution confidence="0.96" probability="0.96" recordCount="24" value="Kunde">
+                <Extension extender="spss.com" name="probability" value="0.96"/>
+</ScoreDistribution>
+</Node>
+</Node>
+</Node>
+        <Node id="10" recordCount="21" score="Kuendiger">
+          <CompoundPredicate booleanOperator="surrogate">
+            <CompoundPredicate booleanOperator="or">
+              <SimplePredicate field="Sinus-Milieus" operator="equal" value="MAT"/>
+              <False/>
+</CompoundPredicate>
+            <False/>
+</CompoundPredicate>
+          <ScoreDistribution confidence="0.714285714285714" probability="0.714285714285714" recordCount="15" value="Kuendiger">
+            <Extension extender="spss.com" name="probability" value="0.714285714285714"/>
+</ScoreDistribution>
+          <ScoreDistribution confidence="0.285714285714286" probability="0.285714285714286" recordCount="6" value="Kunde">
+            <Extension extender="spss.com" name="probability" value="0.285714285714286"/>
+</ScoreDistribution>
+</Node>
+</Node>
+</Node>
+    <Extension>
+      <X-TreeModel>
+        <X-Priors>
+          <X-Prior-Value targetCategory="Kuendiger" value="0.405775075987842"/>
+          <X-Prior-Value targetCategory="Kunde" value="0.594224924012158"/>
+</X-Priors>
+</X-TreeModel>
+</Extension>
+</TreeModel>
+</PMML>

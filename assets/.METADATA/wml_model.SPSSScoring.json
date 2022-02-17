@@ -1,0 +1,528 @@
+{
+  "entity": {
+    "wml_model": {
+      "software_spec": {
+        "base_id": "687eddc9-028a-4117-b9dd-e57b36f1efa5",
+        "name": "spss-modeler_18.2"
+      },
+      "ml_version": "4.0.12",
+      "type": "spss-modeler_18.2",
+      "schemas": {
+        "input": [
+          {
+            "fields": [
+              {
+                "metadata": {},
+                "name": "ID",
+                "nullable": true,
+                "type": "integer"
+              },
+              {
+                "metadata": {},
+                "name": "Geburtsdatum",
+                "nullable": true,
+                "type": "date"
+              },
+              {
+                "metadata": {},
+                "name": "Alter",
+                "nullable": true,
+                "type": "integer"
+              },
+              {
+                "metadata": {},
+                "name": "Geschlecht",
+                "nullable": true,
+                "type": "string"
+              },
+              {
+                "metadata": {},
+                "name": "Familienstand",
+                "nullable": true,
+                "type": "string"
+              },
+              {
+                "metadata": {},
+                "name": "HatKinder",
+                "nullable": true,
+                "type": "string"
+              },
+              {
+                "metadata": {},
+                "name": "Zahlmethode",
+                "nullable": true,
+                "type": "string"
+              },
+              {
+                "metadata": {},
+                "name": "DAUER_Kundenbeziehung",
+                "nullable": true,
+                "type": "integer"
+              },
+              {
+                "metadata": {},
+                "name": "Region",
+                "nullable": true,
+                "type": "string"
+              },
+              {
+                "metadata": {},
+                "name": "Bundesland",
+                "nullable": true,
+                "type": "string"
+              },
+              {
+                "metadata": {},
+                "name": "Gebiet",
+                "nullable": true,
+                "type": "string"
+              },
+              {
+                "metadata": {},
+                "name": "Umsatz_Total",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "metadata": {},
+                "name": "Umsatz_letztes_Quartal",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "metadata": {},
+                "name": "Oekostrom",
+                "nullable": true,
+                "type": "integer"
+              },
+              {
+                "metadata": {},
+                "name": "Fernwaermeabnehmer",
+                "nullable": true,
+                "type": "integer"
+              },
+              {
+                "metadata": {},
+                "name": "Strassentyp",
+                "nullable": true,
+                "type": "string"
+              },
+              {
+                "metadata": {},
+                "name": "Bonitaet",
+                "nullable": true,
+                "type": "string"
+              },
+              {
+                "metadata": {},
+                "name": "Kaufkraft",
+                "nullable": true,
+                "type": "string"
+              },
+              {
+                "metadata": {},
+                "name": "Anteil Deutscher",
+                "nullable": true,
+                "type": "string"
+              },
+              {
+                "metadata": {},
+                "name": "Altersstruktur",
+                "nullable": true,
+                "type": "string"
+              },
+              {
+                "metadata": {},
+                "name": "Bebauung",
+                "nullable": true,
+                "type": "string"
+              },
+              {
+                "metadata": {},
+                "name": "Regionaltyp",
+                "nullable": true,
+                "type": "string"
+              },
+              {
+                "metadata": {},
+                "name": "Status",
+                "nullable": true,
+                "type": "string"
+              },
+              {
+                "metadata": {},
+                "name": "Bequemer Experte",
+                "nullable": true,
+                "type": "string"
+              },
+              {
+                "metadata": {},
+                "name": "Treuer Vertreterkunde",
+                "nullable": true,
+                "type": "string"
+              },
+              {
+                "metadata": {},
+                "name": "Anspruchsvoller Delegierer",
+                "nullable": true,
+                "type": "string"
+              },
+              {
+                "metadata": {},
+                "name": "Preisorientierter Rationalist",
+                "nullable": true,
+                "type": "string"
+              },
+              {
+                "metadata": {},
+                "name": "ueberforderter Unterstuetzungssucher",
+                "nullable": true,
+                "type": "string"
+              },
+              {
+                "metadata": {},
+                "name": "Skeptisch Gleichgueltiger",
+                "nullable": true,
+                "type": "string"
+              },
+              {
+                "metadata": {},
+                "name": "Distinguiert Konservativer",
+                "nullable": true,
+                "type": "string"
+              },
+              {
+                "metadata": {},
+                "name": "Gesunder Kraftprotz",
+                "nullable": true,
+                "type": "string"
+              },
+              {
+                "metadata": {},
+                "name": "Unkritisch Wehleidiger",
+                "nullable": true,
+                "type": "string"
+              },
+              {
+                "metadata": {},
+                "name": "Skeptischer Verweigere",
+                "nullable": true,
+                "type": "string"
+              },
+              {
+                "metadata": {},
+                "name": "Informierter Koerperbewusster",
+                "nullable": true,
+                "type": "string"
+              },
+              {
+                "metadata": {},
+                "name": "Eingeschraenkter Kassenpatient",
+                "nullable": true,
+                "type": "string"
+              },
+              {
+                "metadata": {},
+                "name": "Konservativer Arztglaeubiger",
+                "nullable": true,
+                "type": "string"
+              },
+              {
+                "metadata": {},
+                "name": "Aboscore",
+                "nullable": true,
+                "type": "string"
+              },
+              {
+                "metadata": {},
+                "name": "Sinus-Milieus",
+                "nullable": true,
+                "type": "string"
+              }
+            ],
+            "id": "EVU_Scoring.csv",
+            "name": "EVU_Scoring.csv",
+            "type": "struct"
+          }
+        ],
+        "output": [
+          {
+            "fields": [
+              {
+                "metadata": {},
+                "name": "ID",
+                "nullable": true,
+                "type": "integer"
+              },
+              {
+                "metadata": {},
+                "name": "Geschlecht",
+                "nullable": true,
+                "type": "string"
+              },
+              {
+                "metadata": {},
+                "name": "Familienstand",
+                "nullable": true,
+                "type": "string"
+              },
+              {
+                "metadata": {},
+                "name": "HatKinder",
+                "nullable": true,
+                "type": "string"
+              },
+              {
+                "metadata": {},
+                "name": "Zahlmethode",
+                "nullable": true,
+                "type": "string"
+              },
+              {
+                "metadata": {},
+                "name": "DAUER_Kundenbeziehung",
+                "nullable": true,
+                "type": "integer"
+              },
+              {
+                "metadata": {},
+                "name": "Region",
+                "nullable": true,
+                "type": "string"
+              },
+              {
+                "metadata": {},
+                "name": "Bundesland",
+                "nullable": true,
+                "type": "string"
+              },
+              {
+                "metadata": {},
+                "name": "Gebiet",
+                "nullable": true,
+                "type": "string"
+              },
+              {
+                "metadata": {},
+                "name": "Umsatz_Total",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "metadata": {},
+                "name": "Umsatz_letztes_Quartal",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "metadata": {},
+                "name": "Oekostrom",
+                "nullable": true,
+                "type": "integer"
+              },
+              {
+                "metadata": {},
+                "name": "Fernwaermeabnehmer",
+                "nullable": true,
+                "type": "integer"
+              },
+              {
+                "metadata": {},
+                "name": "Strassentyp",
+                "nullable": true,
+                "type": "string"
+              },
+              {
+                "metadata": {},
+                "name": "Bonitaet",
+                "nullable": true,
+                "type": "string"
+              },
+              {
+                "metadata": {},
+                "name": "Kaufkraft",
+                "nullable": true,
+                "type": "string"
+              },
+              {
+                "metadata": {},
+                "name": "Anteil Deutscher",
+                "nullable": true,
+                "type": "string"
+              },
+              {
+                "metadata": {},
+                "name": "Altersstruktur",
+                "nullable": true,
+                "type": "string"
+              },
+              {
+                "metadata": {},
+                "name": "Bebauung",
+                "nullable": true,
+                "type": "string"
+              },
+              {
+                "metadata": {},
+                "name": "Regionaltyp",
+                "nullable": true,
+                "type": "string"
+              },
+              {
+                "metadata": {},
+                "name": "Status",
+                "nullable": true,
+                "type": "string"
+              },
+              {
+                "metadata": {},
+                "name": "Bequemer Experte",
+                "nullable": true,
+                "type": "string"
+              },
+              {
+                "metadata": {},
+                "name": "Treuer Vertreterkunde",
+                "nullable": true,
+                "type": "string"
+              },
+              {
+                "metadata": {},
+                "name": "Anspruchsvoller Delegierer",
+                "nullable": true,
+                "type": "string"
+              },
+              {
+                "metadata": {},
+                "name": "Preisorientierter Rationalist",
+                "nullable": true,
+                "type": "string"
+              },
+              {
+                "metadata": {},
+                "name": "ueberforderter Unterstuetzungssucher",
+                "nullable": true,
+                "type": "string"
+              },
+              {
+                "metadata": {},
+                "name": "Skeptisch Gleichgueltiger",
+                "nullable": true,
+                "type": "string"
+              },
+              {
+                "metadata": {},
+                "name": "Distinguiert Konservativer",
+                "nullable": true,
+                "type": "string"
+              },
+              {
+                "metadata": {},
+                "name": "Gesunder Kraftprotz",
+                "nullable": true,
+                "type": "string"
+              },
+              {
+                "metadata": {},
+                "name": "Unkritisch Wehleidiger",
+                "nullable": true,
+                "type": "string"
+              },
+              {
+                "metadata": {},
+                "name": "Skeptischer Verweigere",
+                "nullable": true,
+                "type": "string"
+              },
+              {
+                "metadata": {},
+                "name": "Informierter Koerperbewusster",
+                "nullable": true,
+                "type": "string"
+              },
+              {
+                "metadata": {},
+                "name": "Eingeschraenkter Kassenpatient",
+                "nullable": true,
+                "type": "string"
+              },
+              {
+                "metadata": {},
+                "name": "Konservativer Arztglaeubiger",
+                "nullable": true,
+                "type": "string"
+              },
+              {
+                "metadata": {},
+                "name": "Aboscore",
+                "nullable": true,
+                "type": "string"
+              },
+              {
+                "metadata": {},
+                "name": "Sinus-Milieus",
+                "nullable": true,
+                "type": "string"
+              },
+              {
+                "metadata": {},
+                "name": "ABC",
+                "nullable": true,
+                "type": "string"
+              },
+              {
+                "metadata": {},
+                "name": "Alter_calc",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "metadata": {},
+                "name": "$R-Churn",
+                "nullable": true,
+                "type": "string"
+              },
+              {
+                "metadata": {},
+                "name": "$RC-Churn",
+                "nullable": true,
+                "type": "double"
+              }
+            ],
+            "id": "id24WVIHQIKD4",
+            "name": "Scoring",
+            "type": "struct"
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "name": "SPSS Scoring",
+    "description": "",
+    "asset_type": "wml_model",
+    "asset_category": "USER",
+    "resource_key": "93c320aa-43c5-4143-b53f-9d9b4b55fe65",
+    "origin_country": "US",
+    "created_at": "2022-02-17T20:43:31Z",
+    "created": 1645130611771,
+    "asset_id": "wml_model.SPSSScoring",
+    "asset_attributes": [
+      "wml_model"
+    ]
+  },
+  "attachments": [
+    {
+      "asset_type": "wml_model",
+      "user_data": {
+        "content_format": "native"
+      },
+      "created_at": "2022-02-17T20:43:32Z",
+      "id": "801cd129-b62e-45cc-b3ba-ad5931967690",
+      "is_managed": true,
+      "is_referenced": false,
+      "is_remote": false,
+      "transfer_complete": true
+    }
+  ]
+}
